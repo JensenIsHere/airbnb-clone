@@ -1,3 +1,19 @@
+html {
+  background-color: #eee;
+}
+
 body {
-  margin: 0;
+  margin: 25px 0 0 25px;
+}
+
+nav {
+  width: 550px;
+  height: 70px;
+  background: #ffffff;
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px 10px 0 0;
+}
+
+.navbar--logo {
+  margin: 22px 0 0 30px;
 }
