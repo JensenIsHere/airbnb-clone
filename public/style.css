@@ -1,9 +1,13 @@
+* {
+  margin: 0;
+}
+
 html {
   background-color: #eee;
 }
 
 body {
-  margin: 25px 0 0 25px;
+  padding: 25px 0 0 25px;
 }
 
 nav {
@@ -16,4 +20,30 @@ nav {
 
 .navbar--logo {
   margin: 22px 0 0 30px;
+}
+
+.hero {
+  width: 550px;
+  height: 451px;
+  background: #ffffff;
+}
+
+.hero--img {
+  width: 396px;
+  padding: 26px 0 32px 77px;
+}
+
+.hero--title {
+  padding: 0 0 16px 36px;
+  font-family: "Poppins";
+  font-size: 36px;
+  color: #000000;
+}
+
+.hero--desc {
+  width: 320px;
+  padding: 0 0 49px 36px;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 16px;
 }
