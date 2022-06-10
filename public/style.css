@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 html {
@@ -11,6 +12,8 @@ body {
 }
 
 nav {
+  position: relative;
+  z-index: 0;
   width: 550px;
   height: 70px;
   background: #ffffff;
@@ -24,7 +27,6 @@ nav {
 
 .hero {
   width: 550px;
-  height: 451px;
   background: #ffffff;
 }
 
@@ -35,7 +37,6 @@ nav {
 
 .hero--title {
   padding: 0 0 16px 36px;
-  font-family: "Poppins";
   font-size: 36px;
   color: #000000;
 }
@@ -43,7 +44,63 @@ nav {
 .hero--desc {
   width: 320px;
   padding: 0 0 49px 36px;
-  font-family: "Poppins";
   font-weight: 300;
   font-size: 16px;
+}
+
+.card {
+  width: 514px;
+  background: #ffffff;
+  border-radius: 0 0 10px 10px;
+  padding: 0 0 30px 36px;
+  font-size: 12px;
+}
+
+.card--stack_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin-bottom: 9px;
+}
+
+.card--img {
+  grid-area: 1 / 1 / 2 / 2;
+  width: 176px;
+}
+
+.card--status_box {
+  grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 61px;
+  height: 20px;
+  margin: 6px 0 0 6px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
+.card--status_text {
+  font-weight: 400;
+  font-size: 10.24px;
+}
+
+.card--rating_container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 8px;
+}
+
+.card--rating_img {
+  width: 14px;
+  margin-right: 2px;
+}
+
+.card--rating_text > span {
+  color: #918e9b;
+}
+
+.card--event_title {
+  margin-bottom: 8px;
 }
